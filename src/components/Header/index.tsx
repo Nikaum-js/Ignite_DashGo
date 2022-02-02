@@ -26,6 +26,7 @@ export function Header() {
       px="6"
       align="center"
     >
+      
       { !isWideVersion && (
         <IconButton
           aria-label= "Open Navigation"
