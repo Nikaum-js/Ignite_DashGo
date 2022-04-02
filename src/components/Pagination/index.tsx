@@ -16,13 +16,11 @@ export function Pagination() {
 
       <Stack direction="row" spacing="2">
         <PaginationItem pageNumber={1} isCurrent={true} />
-        <PaginationItem pageNumber={1} />
-        <PaginationItem pageNumber={1} />
-        <PaginationItem pageNumber={1} />
-        <PaginationItem pageNumber={1} />
-        <PaginationItem pageNumber={1} />
-        <PaginationItem pageNumber={1} />
-        <PaginationItem pageNumber={1} />
+        <PaginationItem pageNumber={2} />
+        <PaginationItem pageNumber={3} />
+        <PaginationItem pageNumber={4} />
+        <PaginationItem pageNumber={5} />
+        <PaginationItem pageNumber={6} />
       </Stack>
     </Stack>
   );
