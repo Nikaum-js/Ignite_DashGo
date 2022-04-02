@@ -18,6 +18,7 @@ const InputBase: ForwardRefRenderFunction<HTMLInputElement, InputProps> = (
   { name, error = null, label, ...rest }: InputProps,
   ref
 ) => {
+  
   return (
     <FormControl isInvalid={!!error}>
       {/* Só vou fazer a label aparecer se ela existir dentro do componente */}
